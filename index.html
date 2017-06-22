@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post It !</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body ng-app="SignIn">
+    <div class="container" >
+        <!-- header -->
+        <header class="header z-depth-5">
+            <b>Post It!</b>
+        </header>
+
+        <!-- form space -->
+        <div class="form-div">
+
+            <!-- form card -->
+            <div class="form-card z-depth-5">
+
+                <!-- signUp / Login -->
+                <div class="enter-option">
+                    <div class="row options">
+                        <div class="col s6 active"><a href="#!signUp" >Sign Up</a></div>
+                        <div class="col s6"><a href="#!logIn">LogIn</a></div>
+                    </div>
+                </div>
+
+                <!-- signUp / Login space-->
+                <div class="ng-view">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.6.4/angular-messages.min.js"></script>
+
+    <!-- javascript -->
+    <script src="angular/signIn.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- controllers -->
+    <script src="angular/controllers/signUpController.js"></script>
+    <script src="angular/controllers/logInController.js"></script>
+
+
+
+</body>
+</html>

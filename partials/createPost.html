@@ -1,0 +1,25 @@
+<div class="row post z-depth-5">
+    <!-- new post form -->
+    <form  name="mForm "class="col s12" ng-controller="createPostController as cPostCtrl" ng-submit="cPostCtrl.submit() && mForm.$valid">
+        <div class="row">
+            <!-- title -->
+            <div class="input-field col s12">
+                <input id="title" name="title" ng-model="title" type="text" required>
+                <label for="title">Title</label>
+            </div>
+        </div>
+        <div class="row">
+            <!-- content -->
+            <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea" ng-model="content" required></textarea>
+                <label for="textarea1">Content</label>
+            </div>
+        </div>
+        <div>
+            <!-- post it  -->
+            <button class="btn waves-effect waves-light" type="submit" name="action">Post It
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </form>
+</div>
