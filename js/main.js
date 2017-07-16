@@ -4,18 +4,19 @@
 
 $(document).ready(function(){
 
-    // tab navigation selection
-    $(".col.s6").on("click",
-        function () {
-
-            if(!$(this).hasClass("active")){
-                $(".col.s6.active").removeClass("active");
-                $(this).addClass("active");
-            }
+    setTimeout(function(){
+        $('.TypeIt').css('width','100%');
+    }, 2000);
 
 
-        }
-    );
+    setTimeout(function(){
+        $('#expandable').addClass('active');
+    }, 6000);
+
+    setTimeout(function(){
+        $('.OnLoadAnimation').remove();
+    }, 9000);
+
 
 
 
