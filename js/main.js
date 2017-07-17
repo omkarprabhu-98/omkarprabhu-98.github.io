@@ -4,6 +4,8 @@
 
 $(document).ready(function(){
 
+
+    // animation timing
     setTimeout(function(){
         $('.TypeIt').css('width','100%');
     }, 2000);
@@ -14,8 +16,21 @@ $(document).ready(function(){
     }, 6000);
 
     setTimeout(function(){
+
+        $('.MainPage').css('display','block');
+
+        $('.MainPage').addClass('active');
+
+    }, 8800);
+
+    setTimeout(function(){
         $('.OnLoadAnimation').remove();
+        $('body').css('overflow','');
+
+
     }, 9000);
+
+
 
 
 
