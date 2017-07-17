@@ -121,3 +121,41 @@ a{
 a.active{
     font-size: 16px  !important;
 }
+
+
+
+
+
+/* footer*/
+footer{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer div{
+    margin: 10px;
+    float: left;
+    align-self: flex-start;
+}
+
+footer .links {
+    margin: 10px;
+    position: fixed;
+    align-self: flex-end;
+    align-items: flex-end;
+    float: right;
+    right: 0;
+    bottom: 0;
+}
+
+.circle{
+
+    height: 40px;
+    width: 40px;
+}
+.circle:hover{
+    opacity: .5;
+}
