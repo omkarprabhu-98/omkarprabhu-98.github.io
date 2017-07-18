@@ -2,7 +2,9 @@
  * Created by Admin on 13-Jun-17.
  */
 
+
 $(document).ready(function(){
+
 
 
     // animation timing
@@ -18,7 +20,6 @@ $(document).ready(function(){
     setTimeout(function(){
 
         $('.MainPage').css('display','block');
-
         $('.MainPage').addClass('active');
 
     }, 8800);
@@ -26,8 +27,6 @@ $(document).ready(function(){
     setTimeout(function(){
         $('.OnLoadAnimation').remove();
         $('body').css('overflow','');
-
-
     }, 9000);
 
 

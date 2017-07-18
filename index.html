@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <div class="container" >
+    <div class="container" ng-app="MyProfile">
 
          <!--on Load Animation-->
         <div class="OnLoadAnimation">
@@ -32,17 +32,22 @@
         </div>
 
         <!--Main Page-->
-        <div class="MainPage">
+        <div class="MainPage" >
              <!--top navigation-->
             <nav class="nav-extended">
                 <div class="nav-content" >
-                    <ul class="tabs tabs-transparent collapsible popout"  data-collapsible="accordion">
-                        <li class="tab"><a  class="active" href="#test1">About Me</a></li>
-                        <li class="tab"><a  href="#test2">My Projects</a></li>
-                        <li class="tab"><a href="#test4">Contact</a></li>
+                    <ul class="tabs tabs-transparent collapsible popout"  data-collapsible="accordion"  >
+                        <li class="tab"><a  class="active" ui-sref="about">About Me</a></li>
+                        <li class="tab"><a  ui-sref="projects">My Projects</a></li>
+                        <li class="tab"><a ui-sref="contact">Contact</a></li>git
+
                     </ul>
                 </div>
             </nav>
+
+            <div  class="ui-view">
+
+            </div>
 
 
 
@@ -51,7 +56,7 @@
                 <div style="color: white;">Omkar Srinivas Prabhu</div>
 
                 <div class="links">
-                    <a href="https://github.com/omkarprabhu-98" target="_blank"><img src="images/github.png" class="circle" ></a>
+                    <a href="https://github.com/omkarprabhu-98" target="_blank"><img src="images/github.png" class=" Github circle" ></a>
                 </div>
             </footer>
 
@@ -69,9 +74,13 @@
     <script src="materialize/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+
 
     <!-- javascript -->
     <script src="js/main.js"></script>
+    <script src="angular/index.js"></script>
 
 
 
