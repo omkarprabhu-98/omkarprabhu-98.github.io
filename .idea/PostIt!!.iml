@@ -14,5 +14,10 @@
     <orderEntry type="library" name="angular-messages" level="application" />
     <orderEntry type="library" name="angular-materialize" level="application" />
     <orderEntry type="library" name="angular-ui-router" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular-route" level="application" />
+    <orderEntry type="library" name="angular-ui-router" level="application" />
+    <orderEntry type="library" name="angular-materialize" level="application" />
   </component>
 </module>

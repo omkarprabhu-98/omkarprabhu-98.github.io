@@ -1,11 +1,32 @@
 <div class="Profile">
     <div class="circle">
-        <img ng-src="images/MyPhoto.jpg" style="width:70px;height:70px">
+        <img id="profileImg" ng-src="images/MyPhoto.jpg">
     </div>
 
-    <div>
-        <h1>My Name Is Omkar Srinivas Prabhu</h1>
-        <b>I am a Student a NITK, Suratkal</b>
+    <div class="description">
+        <div id="myname">My Name Is Omkar Srinivas Prabhu</div><br/>
+        <b class="sideDesc">I am a Computer Engineering Student a NITK, Suratkal</b>
+        <b class="sideDesc">
+            I am interested in Application Development for Android and Web platforms
+        </b>
     </div>
 
 </div>
+
+<style>
+
+
+    @media only screen and (max-width: 921px) {
+        #profileImg {
+            width: 120px;
+            height: 120px;
+        }
+        #myname{
+            font-size: 22px;
+        }
+        .sideDesc{
+            font-size: 12px;
+        }
+    }
+
+</style>

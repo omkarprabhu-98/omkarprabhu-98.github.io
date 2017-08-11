@@ -27,7 +27,10 @@ $(document).ready(function(){
     setTimeout(function(){
         $('.OnLoadAnimation').remove();
         $('body').css('overflow','');
+        $('.tab a').addClass('active');
     }, 9000);
+
+
 
 
 
