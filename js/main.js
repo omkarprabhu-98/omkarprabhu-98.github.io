@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     setTimeout(function(){
         $('.OnLoadAnimation').remove();
-        $('body').css('overflow','');
+        $('body').css('overflow','-webkit-paged-y');
         $('.tab a').addClass('active');
     }, 9000);
 

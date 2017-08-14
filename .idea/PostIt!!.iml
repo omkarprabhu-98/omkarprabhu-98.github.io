@@ -19,5 +19,6 @@
     <orderEntry type="library" name="angular-route" level="application" />
     <orderEntry type="library" name="angular-ui-router" level="application" />
     <orderEntry type="library" name="angular-materialize" level="application" />
+    <orderEntry type="library" name="materialize" level="application" />
   </component>
 </module>

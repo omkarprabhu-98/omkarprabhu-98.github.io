@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-vfdvdf
-</body>
-</html>
+
+
+<div class="allProjects" ng-controller="ProjectsController" >
+
+    <div class="row" ng-repeat="projects3 in projects">
+        <div class="card col s4" ng-repeat="project in projects3">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" style="background-color: black">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">{{project.title}}<i class="material-icons right">more_vert</i></span>
+                <p><a href="{{project.link}}" target="_blank">View</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">{{project.title}}<i class="material-icons right">close</i></span>
+                <p>{{project.description}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>

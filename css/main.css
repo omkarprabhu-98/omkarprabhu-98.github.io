@@ -5,6 +5,7 @@ body{
     overflow: hidden;
     background-color: #000000;
     font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
 }
 
 
@@ -108,7 +109,9 @@ nav{
 }
 
 .nav-content{
-
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 
 }
 
@@ -134,48 +137,12 @@ a.active{
 
 
 
-.Profile{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-#profileImg{
-    width:200px;
-    height:200px;
-    border-radius:50%;
-    margin: 30px;
-}
-.description{
-    color: #FFFFFF;
-    vertical-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.sideDesc{
-
-    margin:5px;
-    font-size: 18px;
-}
-#myname{
-    font-size: 28px;
-}
 
 
 /* footer*/
 footer{
     display: flex;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+
 }
 
 footer div{
@@ -190,8 +157,7 @@ footer .links {
     align-self: flex-end;
     align-items: flex-end;
     float: right;
-    right: 0;
-    bottom: 0;
+
 }
 
 .Github{

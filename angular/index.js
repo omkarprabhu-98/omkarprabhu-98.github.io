@@ -3,7 +3,7 @@
  */
 
 
-angular.module('MyProfile', ["ui.router"]).config(function ($stateProvider, $urlRouterProvider) {
+angular.module('MyProfile', ["ui.router"]).config(function ($stateProvider) {
 
 
 
