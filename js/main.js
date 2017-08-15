@@ -26,20 +26,10 @@ $(document).ready(function(){
 
     setTimeout(function(){
         $('.OnLoadAnimation').remove();
-        $('body').css('overflow','-webkit-paged-y');
-        $('.tab a').addClass('active');
+        $('body').css('overflow','none');
+        $('#about').addClass('active');
+        $('#about').click();
+
     }, 9000);
-
-
-
-
-
-
-
-
-
-
-
-
 
 });

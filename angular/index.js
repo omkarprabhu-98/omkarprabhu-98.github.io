@@ -23,4 +23,6 @@ angular.module('MyProfile', ["ui.router"]).config(function ($stateProvider) {
 
         })
         ;
+
+
 });

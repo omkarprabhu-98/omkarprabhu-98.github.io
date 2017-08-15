@@ -10,6 +10,7 @@ body{
 
 
 
+
 .container{
     margin: 0;
 }
@@ -25,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 
 .animationContainer{
     width:490px;
@@ -61,14 +63,22 @@ body{
 
 }
 
+@media only screen and (max-width: 921px) {
 
+    .OnLoadAnimation h1{
+        font-size: 30px;
+    }
+    .animationContainer{
+        width:245px;
+    }
+}
 
 
 /* wave effect*/
 #expandable{
     position: absolute;
     border-radius: 50%;
-    transition: all 4s;
+    transition: all 3s;
 }
 #expandable.active{
     background-color: #FFFFFF;
@@ -128,8 +138,10 @@ a.active{
 
 .ui-view{
     width: 100vw;
-    height: 100%;
+    height: 81%;
     display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -141,22 +153,31 @@ a.active{
 
 /* footer*/
 footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     display: flex;
+}
+
+.madeBy{
+    margin: 10px;
+    left:50px;
+    bottom:0;
+    position: absolute;
 
 }
 
-footer div{
-    margin: 10px;
-    float: left;
-    align-self: flex-start;
-}
-
-footer .links {
-    margin: 10px;
-    position: fixed;
+.links {
+    margin: 0;
+    position: absolute;
     align-self: flex-end;
     align-items: flex-end;
     float: right;
+    right: 50px;
+    bottom: 0;
+
+
 
 }
 

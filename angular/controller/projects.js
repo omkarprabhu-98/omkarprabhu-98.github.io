@@ -12,7 +12,16 @@ var showProjects = function ($scope) {
 
 
 var projects = [
-    [
+    {
+        'title': 'First Project',
+        'description': 'This was my first project, I loved working on it',
+        'link': 'https://www.github.com/omkarprabhu-98'
+    },
+    {
+        title: 'First Project',
+        description: 'This was my first project, I loved working on it',
+        link: 'https://www.github.com/omkarprabhu-98'
+    },
     {
         title: 'First Project',
         description: 'This was my first project, I loved working on it',
@@ -27,22 +36,42 @@ var projects = [
         title: 'First Project',
         description: 'This was my first project, I loved working on it',
         link: 'https://www.github.com/omkarprabhu-98'
-    }],[
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
     },
     {
         title: 'First Project',
         description: 'This was my first project, I loved working on it',
         link: 'https://www.github.com/omkarprabhu-98'
     },
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    }]
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        },
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        },
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        },
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        },
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        },
+        {
+            title: 'First Project',
+            description: 'This was my first project, I loved working on it',
+            link: 'https://www.github.com/omkarprabhu-98'
+        }
 ];
 
 
