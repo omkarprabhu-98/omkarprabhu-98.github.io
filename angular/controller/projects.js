@@ -13,65 +13,18 @@ var showProjects = function ($scope) {
 
 var projects = [
     {
-        'title': 'First Project',
-        'description': 'This was my first project, I loved working on it',
-        'link': 'https://www.github.com/omkarprabhu-98'
+        'title': 'NITK-Login',
+        'description': 'Android Application to auto-sign into NITK-NET Wifi',
+        'link': 'https://github.com/MO-DevTeam/NITK-Login',
+        'img': 'images/NITK-Login.png'
     },
     {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    },
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    },
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    },
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    },
-    {
-        title: 'First Project',
-        description: 'This was my first project, I loved working on it',
-        link: 'https://www.github.com/omkarprabhu-98'
-    },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        },
-        {
-            title: 'First Project',
-            description: 'This was my first project, I loved working on it',
-            link: 'https://www.github.com/omkarprabhu-98'
-        }
+        title: 'SPlay',
+        description: 'Dark Theme Android Music Player',
+        link: 'https://www.github.com/omkarprabhu-98/SPlay',
+        'img': 'images/SPlay.png'
+
+    }
 ];
 
 

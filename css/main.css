@@ -74,6 +74,7 @@ body{
 }
 
 
+
 /* wave effect*/
 #expandable{
     position: absolute;
@@ -161,8 +162,8 @@ footer{
 }
 
 .madeBy{
-    margin: 10px;
-    left:50px;
+    left:0;
+    padding: 8px;
     bottom:0;
     position: absolute;
 
@@ -174,7 +175,8 @@ footer{
     align-self: flex-end;
     align-items: flex-end;
     float: right;
-    right: 50px;
+    padding: 2px 4px 0 0;
+    right: 0;
     bottom: 0;
 
 
@@ -191,6 +193,26 @@ footer{
 }
 
 
+/* media query for mobile view*/
+@media only screen and (max-width: 576px) {
 
+    .Github{
+        height: 30px;
+        width: 30px;
+    }
+
+    .madeBy{
+        font-size: 10px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    a.active{
+        font-size: 16px  !important;
+    }
+
+}
 
 

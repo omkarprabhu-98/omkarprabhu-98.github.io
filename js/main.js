@@ -28,8 +28,14 @@ $(document).ready(function(){
         $('.OnLoadAnimation').remove();
         $('body').css('overflow','none');
         $('#about').addClass('active');
-        $('#about').click();
 
     }, 9000);
+
+    setTimeout(function(){
+
+        $('#about').click();
+
+    }, 10000);
+
 
 });

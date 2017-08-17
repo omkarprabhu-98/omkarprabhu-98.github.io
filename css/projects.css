@@ -11,6 +11,14 @@
 
 
 .card{
-    margin: 10px;
-    padding: 100px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+.project-img{
+    padding: 10px 100px 10px 100px;
+    background-color: #292929!important;
+
 }
