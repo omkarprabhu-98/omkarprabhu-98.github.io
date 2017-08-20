@@ -53,7 +53,41 @@
             </nav>
 
             <div  class="ui-view">
+                <div class="Profile">
 
+                    <div class="row">
+                        <div class="circle col s12 m4 l4 center">
+                            <img id="profileImg" ng-src="images/MyPhoto.jpg">
+                        </div>
+
+                        <div class="description col s12 m8 l8 center" >
+                            <div id="myname">My Name Is Omkar Srinivas Prabhu</div><br/>
+                            <b class="sideDesc">I am a Computer Engineering Student a NITK, Suratkal<br>
+                                I am interested in Application Development for Android and Web platforms
+                            </b>
+                        </div>
+                    </div>
+
+                </div>
+
+                <style>
+
+
+                    @media only screen and (max-width: 921px) {
+                        #profileImg {
+                            width: 120px;
+                            height: 120px;
+                        }
+
+                        #myname{
+                            font-size: 22px;
+                        }
+                        .sideDesc{
+                            font-size: 12px;
+                        }
+                    }
+
+                </style>
             </div>
 
 

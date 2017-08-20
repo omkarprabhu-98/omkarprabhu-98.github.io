@@ -9,16 +9,30 @@
 }
 
 
-
+/* projects div */
 .card{
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 8px;
+    margin: 8px 8px 10px 8px;
 }
 
-.project-img{
-    padding: 10px 100px 10px 100px;
-    background-color: #292929!important;
+.projectImg{
+    width: 100px;
+    height: 190px;
+    border-right-color: #000000;
+    border: 1px !important;
+    padding: 1px 1px 1px 1px;
+}
 
+.card-image{
+    background-color: #ffffff;
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .card-title{
+        font-size: 18px !important;
+    }
 }
