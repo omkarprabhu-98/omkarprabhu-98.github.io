@@ -16,12 +16,10 @@
 }
 .description{
     color: #FFFFFF;
-    vertical-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+}
+
+#description-container{
+    margin: 30px;
 }
 
 .sideDesc{
