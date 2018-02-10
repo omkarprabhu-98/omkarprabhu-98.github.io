@@ -31,19 +31,19 @@ var projects = [
         tags: ['Android']
     },
     {
-        title: 'ModifiedEnigmaMachine',
+        title: 'Modified Enigma Machine',
         description: 'CO-202 Mini Project. A modified implementation of the Enigma machine used in World War II using digital electronics with computer aided design',
         link: 'https://github.com/omkarprabhu-98/ModifiedEnigmaMachine',
         tags: ['Verilog-HDL', 'Logisim', 'Digital-Design']
     },
     {
-        title: 'GuessWhat',
+        title: 'Guess What',
         description: 'Q&A Android app for which a user has to answer a question based on a scrambled image. It uses Firebase as a backend Edit\n',
         link: 'https://github.com/omkarprabhu-98/GuessWhat',
         tags: ['Android', 'Firebase', 'Material-Design']
     },
     {
-        title: 'BasicChat',
+        title: 'Basic Chat',
         description: 'Android Chat application in which signed-in users can post text and image messages. It uses Firebase for backend Edit\n',
         link: 'https://github.com/omkarprabhu-98/BasicChat',
         tags: ['Android', 'Firebase']

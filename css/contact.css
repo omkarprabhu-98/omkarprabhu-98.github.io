@@ -6,11 +6,26 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
 }
 
 .Info{
+    margin: 30px;
     font-size: 22px;
     color: #FFFFFF;
+    text-align: center;
 }
+
+button{
+    background-color: #0077B5;
+    border-radius: 100px !important;
+    padding: 10px 30px  !important;
+    border: 2px solid #0077B5!important;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 1.45em !important;
+    margin: 0 95px !important;
+}
+
