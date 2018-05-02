@@ -12,10 +12,15 @@
 }
 
 .Info{
-    margin: 30px;
-    font-size: 22px;
+    margin: 24px;
+    font-size: 18px;
     color: #FFFFFF;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 button{
