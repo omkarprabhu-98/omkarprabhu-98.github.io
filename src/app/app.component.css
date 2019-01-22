@@ -1,6 +1,6 @@
 /* ================ Navbar ================ */
 #nav {
-	height: 20%;
+	height: auto ;
 	background-color: white;
 	display: flex;
 	flex-direction: row;

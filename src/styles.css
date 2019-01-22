@@ -2,7 +2,6 @@
 
 html {
 	/* font-family: 'Roboto Mono', monospace; */
-	/* font-family: 'Roboto Slab', serif; */
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Questrial', sans-serif;
 	font-family: 'Varela Round', sans-serif;
@@ -11,4 +10,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
 }
