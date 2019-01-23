@@ -23,6 +23,6 @@
 	color: #9E9E9E
 }
 
-.nav-pills:hover {
+.nav-pills:hover, .nav-pills.selected {
 	color: #424242 
 }
