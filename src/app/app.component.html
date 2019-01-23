@@ -1,20 +1,20 @@
 <div id="nav">
-	<div class="nav-pills" [ngClass] = "{'selected': navVar == 1}"  (click)="navToggle(1); redirect('');">
+	<div class="nav-pills" [ngClass] = "{'selected': this.router.url == '/'}"  (click)="redirect('');">
 		<div>
 			Home
 		</div>
 	</div>
-	<div class="nav-pills" [ngClass] = "{'selected': navVar == 2}"  (click)="navToggle(2); redirect('/experience');">
+	<div class="nav-pills" [ngClass] = "{'selected': (this.router.url == '/experience')}"  (click)="redirect('/experience');">
 		<div>
 			Experience
 		</div>
 	</div>
-	<div class="nav-pills" [ngClass] = "{'selected': navVar == 3}"  (click)="navToggle(3); redirect('/projects');">
+	<div class="nav-pills" [ngClass] = "{'selected': (this.router.url == '/projects')}"  (click)="redirect('/projects');">
 		<div>
 			Projects
 		</div>
 	</div>
-	<div class="nav-pills" [ngClass] = "{'selected': navVar == 4}"  (click)="navToggle(4); redirect('/about');">
+	<div class="nav-pills" [ngClass] = "{'selected': (this.router.url == '/about')}"  (click)="redirect('/about');">
 		<div>
 			About
 		</div>

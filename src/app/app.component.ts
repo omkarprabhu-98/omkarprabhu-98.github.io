@@ -7,16 +7,10 @@ import { Router } from '@angular/router';
 	styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-	navVar;
 	title = 'omkar-srinivas-prabhu';
 	
-	constructor(private router: Router) {
-		this.navVar = 1;
-	}
-	
-	navToggle(i) {
-		this.navVar = i;
-	}
+	constructor(private router: Router) {}
+
 	redirect(path) {
 		this.router.navigate([path]);
 	}
