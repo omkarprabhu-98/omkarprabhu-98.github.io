@@ -34,3 +34,27 @@
 .main-text {
 	font-size: 60px;
 }
+
+@media only screen and (max-width: 700px) {
+	#home-container {
+	  flex-direction: column;
+	  justify-content: space-evenly;
+	}
+	#name-container {
+		width: 100%;
+		margin-bottom: 40px; 
+	}
+	#image-container {
+		height: auto;
+		position: relative;
+		flex-direction: column;
+		bottom: 0;
+		right: 0;
+	}
+	.sub-text {
+		font-size: 28px;
+	}
+	.main-text {
+		font-size: 30px;
+	}
+}
