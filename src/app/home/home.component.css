@@ -38,18 +38,18 @@
 @media only screen and (max-width: 700px) {
 	#home-container {
 	  flex-direction: column;
-	  justify-content: space-evenly;
+	  justify-content: space-between;
 	}
 	#name-container {
 		width: 100%;
-		margin-bottom: 40px; 
+		margin: 150px 0 40px 0; 
 	}
 	#image-container {
 		height: auto;
 		position: relative;
 		flex-direction: column;
-		bottom: 0;
-		right: 0;
+		align-self: flex-end;
+		margin-bottom: 30px;
 	}
 	.sub-text {
 		font-size: 28px;
