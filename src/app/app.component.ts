@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class AppComponent {
 	title = 'omkar-srinivas-prabhu';
 	
-	constructor(private router: Router) {}
+	constructor(public router: Router) {}
 
 	redirect(path) {
 		this.router.navigate([path]);
