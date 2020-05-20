@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Omkar Prabhu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Omkar Srinivas Prabhu"
+description              : "Systems and Infrastructure"
+url                      : "https://omkarprabhu-98.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "omkarprabhu-98/omkarprabhu-98.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "omkarprabhu-98"
 facebook:
   username               :
   app_id                 :
@@ -93,52 +93,70 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  # name             : "."
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Systems and Infrastructure"
+  location         : "India"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:omkarp.nitk@gmail.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://omkarprabhu-98.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/omkarprabhu-98"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/omkarprabhu-98"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/omkarprabhu-98"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    # # - label: "Instagram"
+    # #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/omkarprabhu-98"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/omkarprabhu-98"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://linkedin.com/omkarprabhu-98"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url:
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url:
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   # url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   # url:
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 
 # Reading Files
@@ -206,8 +224,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+permalink: /:year/:month/:title.html
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -273,9 +291,4 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      layout: post

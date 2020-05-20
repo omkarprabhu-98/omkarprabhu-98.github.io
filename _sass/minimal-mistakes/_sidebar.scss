@@ -19,13 +19,13 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    // opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
-    &:hover {
-      opacity: 1;
-    }
+    // &:hover {
+    //   opacity: 1;
+    // }
 
     &.sticky {
       overflow-y: auto;
@@ -33,6 +33,9 @@
          viewport height - nav height - masthead x-padding
       */
       height: calc(100vh - #{$nav-height} - 2em);
+	}
+	&.post{
+		font-size: $type-size-3;
     }
   }
 
@@ -196,8 +199,15 @@
 
   .author__urls {
     span.label {
-      padding-left: 5px;
-    }
+	  padding-left: 5px;
+	}
+	.ref {
+		color: #53595e;
+		&:hover {
+			// font-weight: bolder;
+			color: #000;
+		}
+	}
   }
 
   @include breakpoint($large) {
