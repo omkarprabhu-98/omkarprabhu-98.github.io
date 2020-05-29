@@ -1,0 +1,29 @@
+projects:
+  - title: "Fedota"
+    sub: "On-going Bachelor’s Thesis under Prof. K Chandrasekaran: Golang, Python, gRPC, Docker, Kubernetes"
+    desc: "Building a system for federated learning, a collaborative machine learning approach to improve a model without the
+collection of private end-user data \n Working on design and implementation of the actors in the system and their interactions, system architecture and
+the communication protocol"
+  - title: "Network Function Virtualization"
+    sub: "Supervisor: Prof. Bhaskaran Raman, IIT Bombay: C++"
+    desc: "Implemented network functions of IPv4 Forwarding and NIDS (network intrusion detection system) using
+Aho-Corasick-Algorithm for string matching \n This work was used to derive results for the paper Hummingbird: NFV Chaining Framework over Energy and Cost
+Efficient APUs, which was submitted to The 17th USENIX Symposium on Networked Systems Design and
+Implementation (NSDI ’20)"
+  - title: "Secure Aadhaar"
+    sub: "Hyperledger Composer, Node.js, Angular"
+    desc: "A secure digital identification platform on a permissioned blockchain that allows users to control the access of their
+identification information \n Worked on building the smart contracts and Admin Server to issue network cards for users to get on to the network"
+  - title: "Crypto Watch"
+    sub: "MySQL, Express.js, Angular, Node.js"
+    desc: "A web portal for tracking user’s expenses, with features like resolving payments of people in a group, analysis of
+transactions, etc \n Worked on system design, back-end including the database schema and front-end design"
+  - title: "Betweenness Centrality"
+    sub: "CUDA, C++"
+    desc: "Calculation of betweenness centrality, which measures the importance of vertices in graphs, for large sparse graphs
+on GPU \n Worked on understanding Work-efficient and Vertex-parallel methods to improve efficiency, implementation and
+testing"
+  - title: "C compiler - Analysis Phase"
+    sub: "flex, yacc, C++"
+    desc: "Contains Lexical, Syntax, Semantic Analysis with ICG Phase to handle many features in the C language \n Worked on design decisions for parsing, intermediate representations, analysis rules and error handling followed by
+its implementation"

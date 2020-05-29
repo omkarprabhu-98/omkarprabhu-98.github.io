@@ -3,15 +3,8 @@ main:
   - title: "Blog"
     url: "/"
   - title: "Projects"
-    url: "/#project"
+    url: "/cs"
   - title: "Experience"
-    url: "/#experience"
-  - title: "About"
-    url: "/#about"
-
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: "/cs#experience"
+  - title: "Me"
+    url: "/me"
