@@ -64,7 +64,7 @@ Different system models vary in assumptions: what can nodes do, how can they fai
 
 Nodes in the system model provide compute capabilities and have storage. Storage from volatility memory (which is lost upon failure) to a stable state (possibly can be read from even after node failure) is possible. **Failure Models** describe ways in which nodes can fail. A **crash-recovery failure model** is generally assumed where nodes fail only by crashing and can (possibly) recover at some later point. Another possibility is that nodes can fail by misbehaving in any arbitrary way and are dealt with by **Byzantine Fault Tolerance** are more complex.
 
-**Communication network** connect nodes and are assumed to be unreliable with messages being lost or delayed. A more scare possibility is that of a **network partition**, which occurs when one or multiple network links fail. Partitioned may be accessible to some clients and should be treated differently from a failed node.
+**Communication network** connect nodes and are assumed to be unreliable with messages being lost or delayed. A more scary possibility is that of a **network partition**, which occurs when one or multiple network links fail creating 2 or more groups of nodes. Partitioned nodes may be accessible to some clients and should be treated differently from a failed node. 
 
 With respect to timing and order, nodes view the world uniquely. Message between them can arrive in a different order than it is meant to. Timing assumptions create two models 
 - **Synchronous system model**: Processes execute in lock-step manner, easier to solve problem in (can define max transmission delay to help make inference and rule out inconvenient failure scenarios)

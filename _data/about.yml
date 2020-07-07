@@ -1,11 +1,21 @@
 books:
-  - title: "That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea"
-    link: https://www.amazon.com/That-Will-Never-Work-Netflix/dp/0316530204
-  - title: "Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal"
-    link: https://www.amazon.com/Hatching-Twitter-Story-Friendship-Betrayal/dp/1591847087
-  - title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
-    link: https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X
-  - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
-    link: https://www.amazon.com/Chaos-Monkeys-Obscene-Fortune-Failure/dp/0062458191
-  - title: "Rogue Code: A Jeff Aiken Novel"
-    link: https://www.amazon.com/Rogue-Code-Jeff-Aiken-Novel/dp/1250035376
+  nf:
+    - title: "Super Pumped: The Battle for Uber"
+      link: https://www.amazon.com/Super-Pumped-Battle-Mike-Isaac/dp/0393652246
+    - title: "That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea"
+      link: https://www.amazon.com/That-Will-Never-Work-Netflix/dp/0316530204
+    - title: "Hatching Twitter: A True Story of Money, Power, Friendship, and Betrayal"
+      link: https://www.amazon.com/Hatching-Twitter-Story-Friendship-Betrayal/dp/1591847087
+    - title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future"
+      link: https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X
+    - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
+      link: https://www.amazon.com/Chaos-Monkeys-Obscene-Fortune-Failure/dp/0062458191
+  f:
+    - title: "Rogue Code: A Jeff Aiken Novel"
+      link: https://www.amazon.com/Rogue-Code-Jeff-Aiken-Novel/dp/1250035376
+    - title: "After the funeral"
+      link: https://www.amazon.com/After-Funeral-Hercule-Mystery-Mysteries/dp/0062073826
+    - title: "The A.B.C. Murders"
+      link: https://www.amazon.com/B-C-Murders-Hercule-Mystery/dp/0062073583
+    - title: "The Murder of Roger Ackroyd"
+      link: https://www.amazon.com/Murder-Roger-Ackroyd-Hercule-Mysteries/dp/0062073567
