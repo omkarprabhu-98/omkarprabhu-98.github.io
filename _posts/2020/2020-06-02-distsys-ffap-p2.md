@@ -21,8 +21,7 @@ With the basics and idea of abstractions covered in the [previous post](/2020/05
 
 Time can be used to define the order (without communication) and boundary conditions (decision whether node is down). Lamport and vector clocks are replacement for physical clocks that rely on `counters and communication`. 
 
-In **Lamport clocks**, each process maintains a counter. When a process does work, the counter is updated and includes its counter value when it sends a message. While receiving, it sets its counter to *max* (local, received) counter. If the timestamp on event A *<* timestamp on B then it can mean a happened before b or they are not related; thus, it establishes partial order. Events A and B have the same **causal history** if they originate on the same process (one after the other) or one is a response to msg sent by another process. Even though  A has a greater timestamp, B happened before A. As they are not causally related they cannot be compared based on timestamps.
-
+In **Lamport clocks**, each process maintains a counter. When a process does work, the counter is updated and includes its counter value when it sends a message. While receiving, it sets its counter to *max* (local, received) counter. If the timestamp on event A *<* timestamp on B then it can mean a happened before b or they are not related (Eg. in the figure below even though A has a greater timestamp/counter, A happened before B in global time. As they are not causally related they cannot be compared based on timestamps.); thus, it establishes partial order. Events A and B have the same **causal history** if they originate on the same process (one after the other) or one is a response to msg sent by another process. 
 ```
 p0: -- -- C (0) -- -- -- A(1) -- --
 p1: -- -- -- -- -- -- -- -- -- -- B(0)

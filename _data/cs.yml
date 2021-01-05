@@ -1,6 +1,6 @@
 projects:
   - title: "Fedota"
-    sub: "On-going Bachelor’s Thesis under Prof. K Chandrasekaran: Golang, Python, gRPC, Docker, Kubernetes"
+    sub: "Bachelor’s Thesis under Prof. K Chandrasekaran: Golang, Python, gRPC, Docker, Kubernetes"
     desc: "Building a system for federated learning, a collaborative machine learning approach to improve a model without the
 collection of private end-user data \n Working on design and implementation of the actors in the system and their interactions, system architecture and
 the communication protocol"

@@ -1,5 +1,9 @@
 books:
   nf:
+    - title: "The Soul of a New Machine"
+      link: https://www.amazon.com/Soul-New-Machine-Tracy-Kidder-ebook/dp/B005HG4W9W
+    - title: "Rich Dad Poor Dad"
+      link: https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1543626610
     - title: "Super Pumped: The Battle for Uber"
       link: https://www.amazon.com/Super-Pumped-Battle-Mike-Isaac/dp/0393652246
     - title: "That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea"
@@ -11,6 +15,8 @@ books:
     - title: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
       link: https://www.amazon.com/Chaos-Monkeys-Obscene-Fortune-Failure/dp/0062458191
   f:
+    - title: "Snow Crash"
+      link: https://www.amazon.com/Snow-Crash-Novel-Neal-Stephenson-ebook/dp/B000FBJCJE
     - title: "Rogue Code: A Jeff Aiken Novel"
       link: https://www.amazon.com/Rogue-Code-Jeff-Aiken-Novel/dp/1250035376
     - title: "After the funeral"
