@@ -16,10 +16,12 @@ A list of book and papers related to distributed systems that I have read and wi
 
 ## Theory Papers
 - [Time, Clocks, and the Ordering of Events in a Distributed System](https://amturing.acm.org/p558-lamport.pdf): [Summary](https://docs.google.com/document/d/13tG5ASTSwJ2Ds5BveZZ0SUfJo9RSn_C2czyk3NZ1YdE/edit?usp=sharing#heading=h.g9yayol6sl4p)
-
+- [Paxos](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf): [Post](/2021/01/paxos.html)
 
 ## Implementation Papers
 - [The Google File System](http://static.googleusercontent.com/media/research.google.com/en/us/archive/gfs-sosp2003.pdf): [Summary](/2020/12/gfs.html)
+- [Paxos Made Live](https://static.googleusercontent.com/media/research.google.com/en//archive/paxos_made_live.pdf): [Post](/2021/01/paxos-live.html)
+
 
 
 ## Reading lists
@@ -31,6 +33,5 @@ A list of book and papers related to distributed systems that I have read and wi
 
 ### Note
 
-- Please let me know if I misinterpreted or missed something.
 - Any recommendations are welcome!
 

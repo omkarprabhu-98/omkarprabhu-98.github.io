@@ -1,3 +1,6 @@
+#!/bin.bash
+set -e
+
 year="_posts/$(date +%Y)"
 echo $year
 
@@ -9,19 +12,20 @@ echo $date
 file="$date-$1.md"
 echo $file
 
-touch file
+touch $file
 
 template="---
 title: 
 toc:
   entries:
-  - " "
+  - \" \"
   - 
   - 
 ---
 
 ### Note
 
-- Please let me know if I misinterpreted or missed something."
+- Please let me know if I misinterpreted or missed something.
+"
 
 echo "$template" > $file
