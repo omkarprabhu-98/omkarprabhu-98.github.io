@@ -17,7 +17,7 @@ A list of book and papers related to distributed systems that I have read and wi
 ## Theory Papers / Core Algorithms
 - [Time, Clocks, and the Ordering of Events in a Distributed System](https://amturing.acm.org/p558-lamport.pdf): [Summary](https://docs.google.com/document/d/13tG5ASTSwJ2Ds5BveZZ0SUfJo9RSn_C2czyk3NZ1YdE/edit?usp=sharing#heading=h.g9yayol6sl4p)
 - [Paxos](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf): [Post](/2021/01/paxos.html)
-- Zab
+- [Zab](https://marcoserafini.github.io/papers/zab.pdf) : [Post](2021/03/zab.html)
 - Raft
 
 ## Implementation Papers / Real Systems
