@@ -4,20 +4,19 @@ projects:
     libs: Golang, Python, gRPC, Docker, Kubernetes
     desc:
       - Federated learning platform for researchers and ML enthusiasts to develop Machine Learning models while ensuring privacy by allowing training on data which is private and sensitive and thus not easily available.
-      - Federated learning is a collaborative machine learning approach to improve a model without the collection of private end-user data.
+      - Federated learning is a collaborative machine learning approach to improve a model without the collection of private end-user data. We integrated the federated learning infrastructure and provided it as a platform for researchers and data-owners to utilize.
   - title: Vp-Cap
     link: https://github.com/vp-cap
     libs: Golang, gRPC, Docker, IPFS, MongoDB
     desc: 
-      - Video platform with content based ad placement to display banner ads at relevant locations that are matched to videos based on the objects present in it. 
-      - It consists of a video processing pipeline to extract objects and location in the video. When the video is streamed, banner ads are matched to videos based on the objects and displayed at relevant locations.
-      - The design follows the idea of microservices and uses IPFS Cluster for storage of videos and to serve the video through IPFS acting as a CDN.
+      - A video platform with content based ad placement. It consists of a video processing pipeline to extract objects and location in the video. When the video is streamed, banner ads are matched to videos based on the objects and displayed at relevant locations.
+      - The design follows the idea of microservices and uses IPFS-Cluster for storage of videos and to serve the video through IPFS acting as a CDN.
   - title: Go-Ipfs-Mapreduce
     link: https://github.com/omkarprabhu-98/go-ipfs-mapreduce
     libs: Golang, IPFS
     desc: 
       - A simple POC Map Reduce Library for IPFS, a peer-to-peer network for storing and sharing data in a distributed file system, in Golang.
-      - This is highly experimental and there is much to improve, but the goal is to try and see if mapreduce can be run efficiently at a large p2p file network.
+      - This is highly experimental and there is much to improve, but the goal is to try and see if mapreduce can be run in a global p2p file network.
 
 other-projects:
   - title: Secure Aadhaar

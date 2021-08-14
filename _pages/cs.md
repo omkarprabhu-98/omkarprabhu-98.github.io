@@ -7,7 +7,7 @@ author_profile: true
 
 My projects and open source work can be found on [GitHub](https://github.com/omkarprabhu-98)
 
-Some selected project are mentioned below. Have to update.
+Some selected project are mentioned below.
 
 {% for project in site.data.cs.projects %}
 #### [{{ project.title }}]({{ project.link }}){:target="_blank"}
