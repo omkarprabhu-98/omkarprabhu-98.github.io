@@ -1,29 +1,40 @@
 projects:
-  - title: "Fedota"
-    sub: "Bachelor’s Thesis under Prof. K Chandrasekaran: Golang, Python, gRPC, Docker, Kubernetes"
-    desc: "Building a system for federated learning, a collaborative machine learning approach to improve a model without the
-collection of private end-user data \n Working on design and implementation of the actors in the system and their interactions, system architecture and
-the communication protocol"
-  - title: "Network Function Virtualization"
-    sub: "Supervisor: Prof. Bhaskaran Raman, IIT Bombay: C++"
-    desc: "Implemented network functions of IPv4 Forwarding and NIDS (network intrusion detection system) using
-Aho-Corasick-Algorithm for string matching \n This work was used to derive results for the paper Hummingbird: NFV Chaining Framework over Energy and Cost
-Efficient APUs, which was submitted to The 17th USENIX Symposium on Networked Systems Design and
-Implementation (NSDI ’20)"
-  - title: "Secure Aadhaar"
-    sub: "Hyperledger Composer, Node.js, Angular"
-    desc: "A secure digital identification platform on a permissioned blockchain that allows users to control the access of their
-identification information \n Worked on building the smart contracts and Admin Server to issue network cards for users to get on to the network"
-  - title: "Crypto Watch"
-    sub: "MySQL, Express.js, Angular, Node.js"
-    desc: "A web portal for tracking user’s expenses, with features like resolving payments of people in a group, analysis of
-transactions, etc \n Worked on system design, back-end including the database schema and front-end design"
-  - title: "Betweenness Centrality"
-    sub: "CUDA, C++"
-    desc: "Calculation of betweenness centrality, which measures the importance of vertices in graphs, for large sparse graphs
-on GPU \n Worked on understanding Work-efficient and Vertex-parallel methods to improve efficiency, implementation and
-testing"
-  - title: "C compiler - Analysis Phase"
-    sub: "flex, yacc, C++"
-    desc: "Contains Lexical, Syntax, Semantic Analysis with ICG Phase to handle many features in the C language \n Worked on design decisions for parsing, intermediate representations, analysis rules and error handling followed by
-its implementation"
+  - title: Fedota
+    link: https://github.com/fedota
+    libs: Golang, Python, gRPC, Docker, Kubernetes
+    desc:
+      - Federated learning platform for researchers and ML enthusiasts to develop Machine Learning models while ensuring privacy by allowing training on data which is private and sensitive and thus not easily available.
+      - Federated learning is a collaborative machine learning approach to improve a model without the collection of private end-user data.
+  - title: Vp-Cap
+    link: https://github.com/vp-cap
+    libs: Golang, gRPC, Docker, IPFS, MongoDB
+    desc: 
+      - Video platform with content based ad placement to display banner ads at relevant locations that are matched to videos based on the objects present in it. 
+      - It consists of a video processing pipeline to extract objects and location in the video. When the video is streamed, banner ads are matched to videos based on the objects and displayed at relevant locations.
+      - The design follows the idea of microservices and uses IPFS Cluster for storage of videos and to serve the video through IPFS acting as a CDN.
+  - title: Go-Ipfs-Mapreduce
+    link: https://github.com/omkarprabhu-98/go-ipfs-mapreduce
+    libs: Golang, IPFS
+    desc: 
+      - A simple POC Map Reduce Library for IPFS, a peer-to-peer network for storing and sharing data in a distributed file system, in Golang.
+      - This is highly experimental and there is much to improve, but the goal is to try and see if mapreduce can be run efficiently at a large p2p file network.
+
+other-projects:
+  - title: Secure Aadhaar
+    link: https://github.com/TeamAlpha-NITK/Secure-Aadhaar
+    libs: Hyperledger Composer, Node.js, Angular
+    desc: 
+      - A secure digital identification platform on a permissioned blockchain that allows users to control the access of their identification information.
+      - Worked on building the smart contracts and Admin Server to issue network cards for users to get on to the network.
+  - title: Betweenness Centrality
+    link: https://github.com/CSE-Projects/betweenness-centrality-gpu
+    libs: CUDA, C++
+    desc:
+      - Calculation of betweenness centrality, which measures the importance of vertices in graphs, for large sparse graphs on GPU
+      - Worked on the implementation Work-efficient and Vertex-parallel methods to improve efficiency and benchmarking
+  - title: C compiler - Analysis Phase
+    link: https://github.com/omkarprabhu-98/basic-c-compiler-frontend
+    libs: flex, yacc, C++
+    desc:
+      - Lexical, Syntax, Semantic Analysis with ICG Phase to handle many features in the C language.
+      - Worked on design decisions for parsing, intermediate representations, analysis rules and error handling followed by its implementation.

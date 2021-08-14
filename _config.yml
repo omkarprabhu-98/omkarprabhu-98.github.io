@@ -95,7 +95,7 @@ analytics:
 author:
   # name             : "."
   avatar           : "/assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems and Infrastructure"
+  bio              : "Systems and Infrastructure | MSCS @ Georgia Tech"
   location         : "India"
   email            :
   links:
