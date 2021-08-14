@@ -13,7 +13,9 @@ Some selected project are mentioned below. Have to update.
 #### [{{ project.title }}]({{ project.link }}){:target="_blank"}
 {{ project.libs }}
 
-- {{ project.desc }}
+{% for d in projects.desc %}
+- {{ d }}
+{% endfor %}
 
 {% endfor %}
 
