@@ -10,7 +10,7 @@ Currently, I am exploring Distributed Systems. I hope to share what I learn thro
 
 <img src="/assets/images/about/grad.jpg" style="max-width:200px;"/>
 
-I have currently a MSCS Grad student at [Georgia Tech](https://www.gatech.edu){:target="_blank"}
+I am currently a MSCS Grad student at [Georgia Tech](https://www.gatech.edu){:target="_blank"}
 
 Apart from my academic and professional interests, I enjoy sports, reading books, etc. throughout the day.
 
