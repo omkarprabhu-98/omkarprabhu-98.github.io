@@ -95,13 +95,13 @@ analytics:
 author:
   # name             : "."
   avatar           : "/assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Systems and Infrastructure <br> MSCS @ Georgia Tech"
-  location         : "India"
+  bio              : "Systems and Infrastructure <br> Software Development <br> MSCS @ Georgia Tech"
+  location         : "Atlanta, GA, USA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:omkarp.nitk@gmail.com"
+      url: "mailto:omkarsp31@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://omkarprabhu-98.github.io"
