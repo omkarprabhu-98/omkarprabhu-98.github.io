@@ -24,7 +24,7 @@ A list of book and papers related to distributed systems that I have read and wi
 - [The Google File System](http://static.googleusercontent.com/media/research.google.com/en/us/archive/gfs-sosp2003.pdf): [Summary](/2020/12/gfs.html)
 - [Paxos Made Live](https://static.googleusercontent.com/media/research.google.com/en//archive/paxos_made_live.pdf): [Post](/2021/01/paxos-live.html)
 - [Chubby](https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf) : [Post](/2021/01/chubby.html)
-- Zookeeper
+- [Zookeeper](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf): [Post](2021/05/zookeeper.html)
 - Spanner
 - Cassandra
 
